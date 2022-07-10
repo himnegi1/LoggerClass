@@ -2,6 +2,7 @@
 #include<mutex>
 #include<deque>
 
+
 #define LOG_DEBUG(Message, ...) (Logger::Debug(Message, __VA_ARGS__))
 #define LOG_INFO(Message, ...) (Logger::Info(Message, __VA_ARGS__))
 #define LOG_ERROR(Message, ...) (Logger::Error(Message, __VA_ARGS__))
